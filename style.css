@@ -1,0 +1,238 @@
+/* add open sans font style */
+/* common shared style */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+      /* start header style */
+.header{
+    width: 100%;
+    height: 500px;
+    background-color:rgba(186, 60, 87, 0.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.container{
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    color: #292727;
+    padding: 20px;
+
+      
+}
+.title{
+    display: flex;
+    color: #191717;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 100px;
+    font-family: Lato;
+    padding-bottom: 10px;
+    
+}
+.paragraph{
+    display: flex;
+    width: 634px;
+    color: rgba(43, 40, 40, 0.6);
+    font-family: Lato;
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+.btn-primary{
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 10px;
+    background: rgb(235, 68, 157);
+}
+.image{
+    display: flex;
+    width: 550px;
+    height: 460px;
+    margin-top: 40px;
+}
+
+
+/* end header section */
+
+/* start our featured flowers section style */
+
+.featured{
+    text-align: center;
+    padding: 100px;
+    padding-bottom: 10px;
+}
+
+.featured-flower{
+    color: #171414;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.featured-paragraph{
+    display: flex;
+    padding: 10px;
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.flower-box{
+    width: 933px;;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color:#FFF;
+}
+.flower-item{
+    display: flex;
+    justify-content: space-around;
+    color: #4d0303;
+    display: flex;
+    gap: 20px;
+   
+}
+.flower-bg1{
+    width: 295px;
+    height: 338px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.flower1{
+    width: 200px;
+   height: 280px;
+   margin-left: 40px;
+   margin-top: 58px ;
+   justify-content: center;
+}
+.flower-bg2{
+    width: 295px;
+    height: 338px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower2{
+    width: 200px;
+   height: 280px;
+   margin-left: 40px;
+   margin-top: 58px ;
+   justify-content: center;
+}
+.flower-bg3{
+    width: 295px;
+    height: 338px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.flower3{
+    width: 200px;
+   height: 280px;
+   margin-left: 40px;
+   margin-top: 58px ;
+   justify-content: center;
+}
+.flower-title{
+    color: #201d1d;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 5px;
+}
+
+
+/* style gray color box */
+
+.box-bg{
+    width: 933px;;
+    height: 150px;
+    background-color: rgb(216, 210, 210);
+    margin: 0 auto;
+}
+.box-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-gp{
+   padding: 20px;
+   margin-bottom: 80px;
+}
+.box-img{
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+    height: 65px;
+    margin-left: 55px;
+    text-align: center;
+    align-items: center;
+    margin-top:5px;
+}
+.box-title{
+color: rgba(30, 27, 27, 0.8);
+display: flex;
+margin-top: 5px;
+text-align: center;
+font-size: 12px;
+font-weight: 600;
+}
+
+
+
+
+/* style footer section */
+.footer-bg{
+    width: 100%;
+    height: 500px;
+   background-color: black;
+   margin-top: 140px;
+}
+
+.footer-container{
+    display: block;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   padding: 128px;
+}
+span{
+    color: #830520;
+}
+.footer-title{
+    
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-paragraph{
+display: flex;
+padding-top: 10px;
+flex-direction: column;
+font-size: 12px;
+font-weight: 400;
+
+}
+.footer-last{
+padding-top: 10px;
+color: #fff;
+font-size: 10px;
+
+}
