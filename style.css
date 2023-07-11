@@ -63,7 +63,7 @@
 }
 .image{
     display: flex;
-    width: 550px;
+    width: 300px;
     height: 460px;
     margin-top: 40px;
 }
@@ -373,7 +373,7 @@ font-size: 25px;
 
 /* start get the latest deals style section */
 .deals-section{
-   width: 965px;
+   width: 980px;
    height: 44vh;
    background: url('flower image/Rectangle\ 9.png');
    justify-content: center;
@@ -427,8 +427,8 @@ input{
 .footer-bg{
     width: 100%;
     height: 385px;
-   background-color: black;
-   margin-top: 140px;
+    background-color: black;
+    margin-top: 140px;
 }
 
 .footer-container{
