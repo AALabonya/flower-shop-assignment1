@@ -346,7 +346,6 @@ font-size: 25px;
     justify-content: center;
     margin-top: 20px;
     padding: 5px;
-    gap: 40px;
 }
 
 .linkedin-items{
@@ -355,12 +354,18 @@ font-size: 25px;
     width: 342px;
     height: 396px;
     margin: 0 auto;
-    gap: 50px;
+    gap: 8px;
 
 }
 .linkedin-img{
+    padding-bottom: 600px;
     display: flex;
-    width: 222px;
+    width: 237px;
+    height: 276px;
+}
+.linkedin-flower{
+    display: flex;
+    width: 350px;
     height: 276px;
 }
 
@@ -369,12 +374,13 @@ font-size: 25px;
 /* start get the latest deals style section */
 .deals-section{
    width: 965px;
-   height: 41vh;
-   background: url('flower image/Rectangle\ 9.png'), lightgray 0px -203.444px / 100% 213.755% ;
+   height: 44vh;
+   background: url('flower image/Rectangle\ 9.png');
+   justify-content: center;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
-   margin-left: 310px;
+   margin: 0 auto;
 }
 #deals-container{
     display: block;
@@ -399,7 +405,7 @@ font-size: 25px;
 
 }
 input{
-    width: 400px;
+   width: 400px;
    height:30px;
    background: #FFF;
    margin-right: 30px;
