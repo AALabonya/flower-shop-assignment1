@@ -264,8 +264,107 @@ font-weight: 600;
 }
 /* end hot deal section style */
 
+/* start instagram style */
+
+.instagram{
+color: #201f1f;
+text-align: center;
+font-size: 25;
+padding: 100px;
+padding-bottom: 10px;
+
+}
+
+.instagram-title{
+    color: #171414;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
 
 
+.instagram-paragraph{
+    display: flex;
+    padding: 10px;
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.instagram-items{
+    display: flex;
+    justify-content: center;
+    width: 342px;
+    height: 396px;
+    gap: 24px;
+    margin: 0 auto;
+}
+.instagram-img{
+    display: flex;
+    width: 222px;
+    height: 276px;
+    gap: 20px;
+}
+/* end instagram style */
+
+
+/* start linkedin style */
+
+.linkedin{
+display: flex; 
+align-items: center;
+flex-direction: column;
+justify-content: center;
+color: #0c0c0c;
+text-align: center;
+font-size: 25px;
+}
+
+.linkedin-title{
+    align-items: center;
+    flex-direction: column;
+    color: #171414;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.linkedin-paragraph{
+    display: flex;
+    padding: 10px;
+    color: gray;
+    text-align: center;
+    font-size: 14px;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.linkedin-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 5px;
+    gap: 40px;
+}
+
+.linkedin-items{
+    display: flex;
+    justify-content: center;
+    width: 342px;
+    height: 396px;
+    margin: 0 auto;
+    gap: 50px;
+
+}
+.linkedin-img{
+    display: flex;
+    width: 222px;
+    height: 276px;
+}
+
+
+/* end  linkedin style */
 
 
 
